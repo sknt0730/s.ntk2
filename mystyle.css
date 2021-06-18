@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 9pt;
+    font-weight: normal;
+    position: absolute; }
+
+body {
+    width: 182mm;
+    font-family: "Noto Sans Japanese"; }
+
+.page {
+    width: 182mm;
+    height: 257mm; }
+
+#page-1 {
+    top: 22mm;
+    left: 17mm;
+    width: 148mm;
+    height: 220mm; }
+
+#page-2 {
+    top: 22mm;
+    left: 199mm;
+    width: 148mm;
+    height: 220mm; }
+
+#svg-page-2 {
+    left: 182mm; }
+
+h1,h2,h3,h4 {
+    padding: 0.5mm 1mm;
+    display: inline-block; }
+
+span {
+  padding: 0.5mm;
+  display: inline-block; }
+
+p {
+    position: relative;
+    text-indent: 1em; }
+
+h1 {
+    font-size: 16pt;
+    top: -10mm; }
+
+.photo {
+    position: absolute;
+    top: -8mm;
+    left: 106mm;
+    width: 30mm;
+    height: 40mm; }
+
