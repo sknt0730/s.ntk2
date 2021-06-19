@@ -53,3 +53,114 @@ h1 {
     width: 30mm;
     height: 40mm; }
 
+.name-kana h2 {
+    font-size: 8pt;
+    width: 14mm;
+    height: 6mm;}
+.name-kana span {
+    top: 0mm;
+    left: 14mm;
+    width: 68mm;
+    height: 6mm; }
+
+    .name {
+        top: 6mm; }
+        .name h2 {
+            width: 14mm;
+            height: 6mm;}
+            .name span {
+                font-size: 24pt;
+                left: 14mm;
+                width: 68mm;
+                height: 14mm; }
+
+.sex {
+    left: 82mm; }
+    .sex h2 {
+        width: 14mm;
+        height: 6mm;
+        text-align: center; }
+    .sex span {
+        top: 6mm;
+        width: 14mm;
+        height: 14mm;
+        font-size: 14pt;
+        text-align: center;
+        padding-top: 4mm; }
+
+.birthday {
+    top: 20mm; }
+    .birthday h2 {
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm; }
+    .birthday span {
+        left: 14mm;
+        width: 82mm;
+        height: 6mm; }
+
+cellphone-num {
+    top: 26mm; }
+    .cellphone-num h2 {
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm;}
+    .cellphone-num span {
+        left: 14mm;
+        width: 24mm;
+        height: 6mm; }
+
+.tellphone-num {
+    top: 26mm;
+    left: 48mm; }
+    .tellphone-num h2 {
+        font-size: 8pt;
+        width: 14mm;
+    height: 6mm; }
+    .tellphone-num span {
+        left: 14mm;
+        width: 24mm;
+        height: 6mm; }
+
+.e-mail {
+    top: 32mm; }
+    .e-mail h2 {
+       font-size: 8pt;
+       width: 14mm;
+       height: 6mm; }
+    .e-mail span {
+        left: 14mm;
+        width: 82mm;
+        height: 6mm; }
+
+.addres {
+    top: 38mm; }
+    .addres h2 {
+        width: 14mm;
+        height: 6mm; }
+    .addres span {
+        font-size: 16pt;
+        left: 0mm;
+        top: 6mm;
+        height: 8mm;
+        width: 148mm;
+        padding-left: 4mm; }
+    .addres .addres-num {
+        left: 14mm;
+        top: 0mm;
+        width: 82mm;
+        height: 6mm;
+        padding: 0.5mm; }
+
+.history {
+    top: 76mm; }
+    .history * {
+        position: relative; }
+    .history table {
+        border-spacing: 0mm; }
+    .history tr td {
+        font-size: 11pt;
+        height: 10mm; }
+    .history tr td : first-child {
+        width: 18mm
+        text-align: center; }
