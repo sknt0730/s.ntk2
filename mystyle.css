@@ -202,3 +202,112 @@ cellphone-num {
     .license tr td:first-child + td {
         width: 14mm;
         text-align: center; }
+    .license tr td:first-child + td +td {
+        width: 116mm;
+        padding: 0mm 4mm; }
+        .license tr td:first-child + td + td h3 {
+            width:  100%;
+            padding-left: 0mm;
+            text-align: center; }
+        .license tr td:first-child + td + td .table-lastline {
+            width: 100%;
+            padding-right: 4mm;
+            text-align: right; }
+    .license tr:first-child th {
+      height: 6mm; }
+    .license tr:first-child th:first-child {
+      width: 18mm; }
+    .license tr:first-child th:first-child + th {
+      width: 14mm; }
+    .license tr:first-child th:first-child +th + th {
+      width: 114mm; }
+    .license > div {
+        position: absolute;
+        top: 66mm;
+        widows: 148mm;
+        height: 14mm; }
+
+.hobby {
+    top: 84mm; }
+    .hobby h2 {
+        width: 74mm;
+        height: 6mm;
+        text-align: center; }
+    .hobby div {
+        top: 6mm;
+        width: 74mm;
+        height: 28mm;
+        padding: 0.5mm;
+        text-align: justify; }
+
+.skill {
+    top: 84mm;
+    left:74mm; }
+    .skill h2 {
+        width: 74mm;
+        height: 6mm;
+        text-align: center; }
+    .skill div {
+        top: 6mm;
+        width: 74mm;
+        height: 28mm;
+        padding: 0.5mm;
+        text-align: justify; }
+
+.reason {
+    top: 122mm; }
+    .reason h2 {
+        width: 148mm;
+        height: 6mm;
+        text-align: center; }
+    .reason div {
+        top: 6mm;
+        width: 148mm;
+        height: 28mm;
+        padding: 0.5mm;
+        text-align: justify; }
+
+.selling-point {
+    top: 154mm; }
+    .selling-point h2 {
+        width: 148mm;
+        height: 6mm;
+        text-align: center; }
+    .selling-point div {
+        top: 6mm;
+        width: 148mm;
+        height: 38mm;
+        padding: 0.5mm;
+        text-align: justify; }
+
+.treatment {
+    top: 204mm; }
+    .treatment h2 {
+        width: 148mm;
+        height: 6mm;
+        text-align: center; }
+    .treatment div {
+        top: 6mm;
+        width: 148mm;
+        height: 10mm;
+        padding: 0.5mm;
+        text-align: justify; }
+
+@page {
+    size: 182mm 257mm;
+    margin: 0; }
+@media print {
+    .page {
+        position: relative;
+        page-break-after: always; }
+
+        #svg-page-2 {
+            top: 0mm;
+            left: 17mm; }
+        
+        #page-2 {
+            top: 22mm;
+            left: 17mm; }
+        .name span {
+          display: none; } }
+          
