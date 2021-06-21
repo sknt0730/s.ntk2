@@ -164,3 +164,41 @@ cellphone-num {
     .history tr td : first-child {
         width: 18mm
         text-align: center; }
+    .history tr td :first-child + td {
+        width: 14mm;
+        text-align: center; }
+    .history tr td :first-child + td + td {
+        width: 116mm;
+        padding: 0mm 4mm; }
+        .history tr td :first-child + td + td h3 {
+            width: 100%;
+            padding-left: 0mm;
+            text-align: center; }
+        .history tr td:first-child + td +td .table-lastline {
+            width: 100%;
+            padding-right: 4mm;
+            text-align: right; }
+    .history tr:first-child th {
+      height: 6mm; }
+    .history tr:first-child th:first-child {
+      width: 18mm; }
+    .history tr:first-child th:first-child {
+      width: 14mm; }
+    .history tr:first-child th:first-child + th + th {
+      width: 114mm; }
+
+.license {
+  top: 0mm; }
+  .license * {
+      position: relative; }
+   .license table {
+       border-spacing: 0mm; }
+    .license tr td {
+        font-size: 11pt;
+        height: 10mm; } 
+    .license tr td:first-child {
+        width: 18mm;
+        text-align: center; }
+    .license tr td:first-child + td {
+        width: 14mm;
+        text-align: center; }
