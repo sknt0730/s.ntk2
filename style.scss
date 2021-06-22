@@ -1,0 +1,137 @@
+//static values
+$PAGE_WIDTH : 182mm;
+$PAGE_HIGHT : 257mm;
+
+$CONTENT_WIDTH : 148mm;
+$CONTENT_HIGHT : 44 * 5mm;
+
+$SIDE_MARGIN : ($PAGE_WIDTH - $CONTENT_WIDTH)/2;
+$TOP_MARGIN : 22mm;
+$BOTTOM_MARGIN : 12mm;
+
+$PAD : 1mm;
+
+
+//load fonts
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+//reset,default
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 9pt;
+    font-weight: normal;
+    position: absolute;
+}
+
+body {
+    width: $PAGE_WIDTH;
+    font-family: "Noto Sans Japanese";
+}
+
+.page {
+    width: $PAGE_WIDTH;
+    height: $PAGE_HIGHT;
+}
+
+#page-1 {
+    top: $TOP_MARGIN;
+    left: $CONTENT_HIGHT;
+
+    width: $CONTENT_WIDTH;
+    height: $CONTENT_HIGHT;
+}
+
+#page-2 {
+    top: $TOP_MARGIN;
+    left: $PAGE_WIDTH + $SIDE_MARGIN;
+
+    width: $CONTENT_WIDTH;
+    height: $CONTENT_HIGHT;
+}
+
+#svg-page-2 {
+    left: $PAGE_WIDTH;
+}
+
+h1,h2,h3,h4 {
+    padding: 0.5mm 1mm;
+    display: inline-block;
+
+}
+
+span {
+    padding: 0.5mm;
+    display: inline-block;
+}
+
+p {
+    position: relative;
+    text-indent: 1em;
+}
+
+//main (first page)
+h1 {
+    font-size: 16pt;
+    top: -10mm;
+}
+
+.photo {
+    position: absolute;
+    top: -8mm;
+    left: 106mm;
+    width: 30mm;
+    height: 40mm;
+}
+
+.name-kana {
+    h2 {
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm;
+    }
+    span {
+        top: 0mm;
+        left: 14mm;
+        width: 68mm;
+        height: 6mm;
+    }
+}
+
+.name {
+    top: 6mm;
+    h2 {
+        width: 14mm;
+        height: 6mm;
+    }
+    span {
+        font-size: 24pt;
+        left: 14mm;
+        width: 68mm;
+        height: 14mm;
+    }
+}
+
+.sex {
+    left: 82mm;
+    h2 {
+        width: 14mm;
+        height: 6mm;
+        text-align: center;
+    }
+    span {
+        top: 6mm;
+        width: 14mm;
+        height: 14mm;
+        font-size: 14pt;
+        text-align: center;
+        padding-top: 4mm;
+    }
+}
+
+.birthday {
+    
+}
