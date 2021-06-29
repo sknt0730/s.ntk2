@@ -211,3 +211,223 @@ h1 {
         padding: 0.5mm;
     }
 }
+
+.histry{
+    top: 76mm;
+    *{
+        position: relative;
+    }
+    table{
+        border-spacing: 0mm;
+    }
+    tr{
+        td{
+            font-size: 11pt;
+            height: 10mm;
+        }
+        td:first-child{
+            width: 18mm;
+            text-align: center;
+        }
+        td:first-child + td{
+            width: 14mm;
+            text-align: center;
+        }
+        td:first-child + td +td{
+            width: 116mm;
+            padding: 0mm 4mm;
+            h3{
+                width: 100%;
+                padding-left: 0mm;
+                text-align: center;
+            }
+            .table-lastline{
+                width: 100%;
+                padding-right: 4mm;
+                text-align: right;
+            }
+        }
+    }
+    tr:first-child{
+        th{
+            height: 6mm;
+        }
+        th:first-child{
+            width: 18mm;
+        }
+        th:first-child + th{
+            width: 14mm;
+        }
+        th:first-child + th +th{
+            width: 114mm;
+        }
+    }
+}
+//main (second page)
+
+.license{
+    top: 0mm;
+    *{
+        position: relative;
+    }
+    table{
+        border-spacing:0mm ;
+    }
+    tr{
+        td{
+            font-size: 11pt;
+            height: 10mm;
+        }
+        td:first-child{
+            width: 18mm;
+            text-align: center;
+        }
+        td:first-child + td{
+            width: 14mm;
+            text-align: center;
+        }
+        td:first-child + td +td{
+            width: 116mm;
+            padding: 0mm 4mm;
+            h3{
+                width: 100%;
+                padding-left: 0mm;
+                text-align: center;
+            }
+            .table-lastline{
+                width: 100%;
+                padding-right: 4mm;
+                text-align: right;
+            }
+        }
+    }
+    tr:first-child{
+        th{
+            height: 6mm;
+        }
+        th:first-child{
+            width: 18mm;
+        }
+        th:first-child + th{
+            width: 14mm;
+        }
+        th:first-child + th +th{
+            width: 114mm;
+        }
+    }
+    > div {
+        position: absolute;
+        top: 66mm;
+        widows: 148mm;
+        height: 14mm;
+    }
+}
+
+.hobby{
+    top: 84mm;
+    h2{
+        width: 74mm;
+        height: 6mm;
+        text-align: center;
+    }
+    div{
+        top: 84mm;
+        width: 74mm;
+        height: 28mm;
+        padding: 0.5mm;
+        text-align: justify;
+    }
+}
+
+.skill{
+    top: 84mm;
+    left: 74mm;
+    h2{
+        width: 74mm;
+        height: 6mm;
+        text-align: center;
+    }
+    div{
+        top: 6mm;
+        width: 74mm;
+        height: 28mm;
+        padding: 0.5mm;
+        text-align: justify;
+    }
+}
+
+.reason{
+    top: 122mm;
+    h2{
+        width: 148mm;
+        height: 6mm;
+        text-align: center;
+    }
+    div{
+        top: 6mm;
+        width: 148mm;
+        height: 28mm;
+        padding: 0.5mm;
+        text-align: justify;
+    }
+}
+
+.selling-point{
+    top: 154mm;
+    h2{
+        width: 148mm;
+        height: 6mm;
+        text-align: center;
+    }
+    div{
+        top: 6mm;
+        width: 148mm;
+        height: 38mm;
+        padding: 0.5mm;
+        text-align: justify;
+    }
+}
+
+.treatment{
+    top: 204mm;
+    h2{
+        width: 148mm;
+        height: 6mm;
+        text-align: center;
+    }
+    div{
+        top: 6mm;
+        width: 148mm;
+        height: 10mm;
+        padding: 0.5mm;
+        text-align: justify;
+    }
+}
+
+//paginate
+
+@page{
+    size: $PAGE_WIDTH $PAGE_HIGHT ;
+    margin: 0;
+}
+
+@media print{
+    .page{
+        position: relative;
+        page-break-after: always;
+    }
+
+    #svg-page-2{
+        top: 0mm;
+        left: 0mm;
+    }
+    #page-2 {
+        top: $TOP_MARGIN;
+        left: $SIDE_MARGIN;
+    }
+.name {
+    span{
+        display: none;
+    }
+}
+}
