@@ -133,5 +133,81 @@ h1 {
 }
 
 .birthday {
-    
+    top: 20mm;
+    h2{
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm;
+    }
+    span{
+        left: 14mm;
+        width: 82mm;
+        height: 6mm;
+    }
+}
+
+.cellphone-num{
+    top: 26mm;
+    h2{
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm;
+    }
+    span{
+        left: 14mm;
+        width: 24mm;
+        height: 6mm;
+    }
+}
+
+.tellephone-num{
+    top: 26mm;
+    left: 48mm;
+    h2{
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm;
+    }
+    span{
+        left: 14mm;
+        width: 24mm;
+        height: 6mm;
+    }
+}
+
+.e-mail {
+    top: 32mm;
+    h2{
+        font-size: 8pt;
+        width: 14mm;
+        height: 6mm;
+    }
+    span{
+        left: 14mm;
+        width: 14mm;
+        height: 6mm;
+    }
+}
+
+.addres {
+    top: 38mm;
+    h2{
+        width: 14mm;
+        height: 6mm;
+    }
+    span{
+        font-size: 16pt;
+        left: 0mm;
+        top: 6mm;
+        height: 8mm;
+        width: 148mm;
+        padding-left: 4mm;
+    }
+    .addres-num {
+        left: 14mm;
+        top: 0mm;
+        width: 82mm;
+        height: 6mm;
+        padding: 0.5mm;
+    }
 }
